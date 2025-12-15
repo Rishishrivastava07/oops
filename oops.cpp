@@ -9,11 +9,11 @@ public :
     string name;
     int age;
     string subject;
-
+    //Setter
     void setSalary(double s){
         salary = s;
     }
-
+    //Getter
     double getSalary(){
         return salary;
     }
